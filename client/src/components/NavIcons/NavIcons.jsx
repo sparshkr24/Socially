@@ -10,12 +10,12 @@ const NavIcons = () => {
   return (
     <div className="navIcons">
       <Link to="../home">
-        <img src={Home} alt="" />
+        <img src={Home} alt="home" />
       </Link>
       <UilSetting />
-      <img src={Noti} alt="" />
+      <img src={Noti} alt="Notification" />
       <Link to="../chat">
-        <img src={Comment} alt="" />
+        <img src={Comment} alt="Chat" />
       </Link>
     </div>
   );

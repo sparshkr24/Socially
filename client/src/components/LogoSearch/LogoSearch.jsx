@@ -1,17 +1,20 @@
 import React from "react";
-import Logo from "../../img/logo.png";
+import Logo from "../../img/socially.png";
 import './LogoSearch.css'
+import { Link, Navigate } from "react-router-dom";
 import { UilSearch } from '@iconscout/react-unicons'
 const LogoSearch = () => {
   return (
     <div className="LogoSearch">
-      <img src={Logo} alt="" />
-      <div className="Search">
+      <Link to="../home/">
+      <img src={Logo} alt="" width="55%"/>
+      </Link>
+      {/* <div className="Search">
           <input type="text" placeholder="#Explore"/>
           <div className="s-icon">
-                <UilSearch/>
+                <button className="btn">Search</button>
           </div>
-      </div>
+      </div> */}
     </div>
   );
 };

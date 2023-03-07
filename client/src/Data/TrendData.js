@@ -1,26 +1,26 @@
 export const TrendData= [
   {
-    name: "Minions",
+    name: "CryptoCurrency",
     shares: 97,
   },
   {
-    name: "Avangers",
+    name: "Ukrain-Russia",
     shares: 80.5,
   },
   {
-    name: "Zainkeepscode",
+    name: "AndrewTate",
     shares: 75.5,
   },
   {
-    name: "Reactjs",
+    name: "One Piece",
     shares: 72,
   },
   {
-    name: "Elon Musk",
+    name: "Recession",
     shares: 71.9,
   },
   {
-    name: "Need for Speed",
+    name: "Elon Must",
     shares: 20,
   },
 ];
